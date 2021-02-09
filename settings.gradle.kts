@@ -1,3 +1,4 @@
+include(":androidLib")
 pluginManagement {
     repositories {
         google()

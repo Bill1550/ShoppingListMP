@@ -2,16 +2,16 @@ package serialization
 
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
-import me.billh.Color
-import me.billh.ColorHexSerializer
-import me.billh.ColorRgbSerializer
+import com.loneoaktech.tests.shoppinglist.shared.model.Color
+import com.loneoaktech.tests.shoppinglist.shared.model.ColorHexSerializer
+import com.loneoaktech.tests.shoppinglist.shared.model.ColorRgbSerializer
 import kotlin.test.Test
 import kotlin.test.assertEquals
 
 class CustomerSerializerTest {
 
     @Serializable
-    data class IntWrapper(val color: Color )
+    data class IntWrapper(val color: Color)
 
     @Serializable
     data class HexWrapper(

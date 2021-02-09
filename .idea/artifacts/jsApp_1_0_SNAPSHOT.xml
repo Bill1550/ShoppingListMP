@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
   <artifact type="jar" name="jsApp-1.0-SNAPSHOT">
-    <output-path>D:\repos\multiplatform\ShoppingListMP\jsApp\build\libs</output-path>
+    <output-path>C:\repos\ShoppingListMP\jsApp\build\libs</output-path>
     <root id="archive" name="jsApp-1.0-SNAPSHOT.jar">
       <element id="module-output" name="ShoppingListMP.jsApp.main" />
     </root>

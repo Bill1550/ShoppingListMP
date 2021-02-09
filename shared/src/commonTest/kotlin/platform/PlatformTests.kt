@@ -1,6 +1,6 @@
 package platform
 
-import me.billh.shared.Platform
+import com.loneoaktech.tests.shoppinglist.shared.Platform
 import kotlin.test.Test
 
 class PlatformTests {

@@ -7,7 +7,7 @@ plugins {
     id("kotlin-android-extensions")
 }
 
-group = "me.billh"
+group = "com.loneoaktech.tests.shoppinglist.shared"
 version = "1.0-SNAPSHOT"
 
 kotlin {
@@ -71,7 +71,7 @@ android {
     sourceSets["main"].manifest.srcFile("src/androidMain/AndroidManifest.xml")
     defaultConfig {
         minSdkVersion(26)
-        targetSdkVersion(29)
+        targetSdkVersion(30)
     }
 }
 

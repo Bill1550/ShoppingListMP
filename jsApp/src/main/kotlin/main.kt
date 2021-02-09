@@ -1,5 +1,5 @@
 import kotlinx.browser.document
-import me.billh.shared.Platform
+import com.loneoaktech.tests.shoppinglist.shared.Platform
 
 fun main() {
     document.writeln("Hello, Sandy Hook!")
