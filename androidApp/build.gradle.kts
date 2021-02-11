@@ -15,11 +15,11 @@ dependencies {
 }
 
 android {
-    compileSdkVersion(30)
+    compileSdkVersion(Versions.compileSdk)
     defaultConfig {
         applicationId = "com.loneoaktech.tests.shoppinglist.android"
-        minSdkVersion(26)
-        targetSdkVersion(30)
+        minSdkVersion(Versions.minSdk)
+        targetSdkVersion(Versions.targetSdk)
         versionCode = 1
         versionName = "1.0"
     }

@@ -4,7 +4,7 @@ plugins {
     kotlin("multiplatform")
     kotlin("plugin.serialization") version "1.4.10"
     id("com.android.library")
-    id("kotlin-android-extensions")
+    id("kotlin-parcelize")
 }
 
 group = "com.loneoaktech.tests.shoppinglist.shared"
@@ -45,13 +45,13 @@ kotlin {
         }
         val androidMain by getting {
             dependencies {
-                implementation("com.google.android.material:material:1.2.1")
+                implementation("com.google.android.material:material:1.3.0")
             }
         }
         val androidTest by getting {
             dependencies {
                 implementation(kotlin("test-junit"))
-                implementation("junit:junit:4.13")
+                implementation("junit:junit:4.13.1")
             }
         }
         val iosMain by getting
