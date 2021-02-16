@@ -1,4 +1,3 @@
-include(":androidLib")
 pluginManagement {
     repositories {
         google()
@@ -13,4 +12,4 @@ rootProject.name = "ShoppingListMP"
 
 include(":androidApp")
 include(":shared")
-include("jsApp")
+include(":jsApp")
